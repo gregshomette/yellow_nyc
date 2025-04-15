@@ -56,8 +56,8 @@ jobs:
 
       # Run the Databricks workflow named "dab_job" as defined in the
       # bundle that was just deployed.
-      - run: databricks bundle run dab_job --refresh-all
-        working-directory: dab
+      - run: databricks bundle run job --refresh-all
+        working-directory: yellow_nyc_job
         env:
           DATABRICKS_TOKEN: ${{ secrets.SP_TOKEN }}
           DATABRICKS_BUNDLE_ENV: dev
