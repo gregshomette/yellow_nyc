@@ -17,12 +17,12 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://adb-3539018328754484.4.azuredatabricks.net/
+      host: https://adb-3539018328754484.4.azuredatabricks.net
 
   prod:
     mode: production
     workspace:
-      host: https://adb-3539018328754484.4.azuredatabricks.net/
+      host: https://adb-3539018328754484.4.azuredatabricks.net
       # We explicitly specify /Workspace/Users/gregsh@outlook.com to make sure we only have a single copy.
       root_path: /Workspace/Users/gregsh@outlook.com/.bundle/${bundle.name}/${bundle.target}
     permissions:
