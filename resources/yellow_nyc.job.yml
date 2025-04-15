@@ -12,7 +12,7 @@ resources:
 
       email_notifications:
         on_failure:
-          - dbradmin@helleng.com
+          - gregsh@outlook.com
 
       tasks:
         - task_key: ingestion_data
